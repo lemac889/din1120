@@ -37,3 +37,8 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
+error_log
+*/din1110.localhost
+*/din1110.info
+*/din1120.localhost
+*/din1120.info
