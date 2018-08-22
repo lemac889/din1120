@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CategorizingPluginManagerInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="composer.json" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="ConfigurablePluginInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="ContextAwarePluginBase.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="ContextAwarePluginInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="DependentPluginInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="DerivativeInspectionInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="FallbackPluginManagerInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="LazyPluginCollection.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="LICENSE.txt" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="PluginAwareInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="PluginBase.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="PluginInspectionInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="PluginManagerBase.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="TESTING.txt" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="PluginManagerInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+<file name="README.txt" server="landreville.info/infographie/" local="131237955360000000" remote="131785555800000000" Dst="2" />
+</dwsync>

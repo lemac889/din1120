@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AddCssCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AjaxResponseAttachmentsProcessor.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AfterCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AjaxResponse.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="BaseCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AlertCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AppendCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="ChangedCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CloseDialogCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="BeforeCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CloseModalDialogCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CommandInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CommandWithAttachedAssetsInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CommandWithAttachedAssetsTrait.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CssCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="DataCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="HtmlCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="InsertCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="InvokeCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="OpenDialogCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="OpenModalDialogCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="PrependCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="RedirectCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="RemoveCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="ReplaceCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="RestripeCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="SetDialogOptionCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="SetDialogTitleCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="SettingsCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="UpdateBuildIdCommand.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+</dwsync>

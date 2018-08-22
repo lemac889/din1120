@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ApcuBackend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="Apcu4Backend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="BackendChain.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="Cache.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="ApcuBackendFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheableJsonResponse.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheableMetadata.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheableDependencyInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheableResponseInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheableRedirectResponse.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheableResponse.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheCollector.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheableResponseTrait.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheBackendInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheFactoryInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheCollectorInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheTagsInvalidatorInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheTagsChecksumInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CacheTagsInvalidator.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="ChainedFastBackend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="ChainedFastBackendFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="DatabaseBackend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="DatabaseBackendFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="ListCacheBinsPass.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="MemoryBackend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="DatabaseCacheTagsChecksum.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="MemoryBackendFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="MemoryCounterBackend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="NullBackend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="NullBackendFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="PhpBackend.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="PhpBackendFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="RefinableCacheableDependencyTrait.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="UncacheableDependencyTrait.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="RefinableCacheableDependencyInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="UnchangingCacheableDependencyTrait.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="UseCacheBackendTrait.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+</dwsync>

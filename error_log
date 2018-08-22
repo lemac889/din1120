@@ -1,0 +1,151 @@
+[03-Dec-2017 15:16:03 UTC] PHP Warning:  POST Content-Length of 9126350 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[16-Jun-2018 09:52:27 America/New_York] Uncaught PHP Exception PDOException: "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away" at /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php line 1129
+[16-Jun-2018 09:52:38 America/New_York] User error: Drupal\Core\Database\DatabaseExceptionWrapper thrown while calling __toString on a Drupal\Core\StringTranslation\TranslatableMarkup object in /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php on line 671: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: SELECT s.*, t.language AS language, t.translation AS translation, t.customized AS customized
+FROM 
+{locales_source} s
+LEFT OUTER JOIN {locales_target} t ON t.lid = s.lid AND t.language = :langcode
+WHERE  (s.source IN  (:db_condition_placeholder_0)) AND (s.context IN  (:db_condition_placeholder_1)); Array
+(
+    [:db_condition_placeholder_0] =&gt; The website encountered an unexpected error. Please try again later.
+    [:db_condition_placeholder_1] =&gt; 
+    [:langcode] =&gt; fr
+)
+ in /home/lemac889a/infographie/core/lib/Drupal/Component/Utility/ToStringTrait.php on line 20 #0 /home/lemac889a/infographie/core/includes/bootstrap.inc(548): _drupal_error_handler_real(256, 'Drupal\\Core\\Dat...', '/home/lemac889a...', 20, Array)
+#1 [internal function]: _drupal_error_handler(256, 'Drupal\\Core\\Dat...', '/home/lemac889a...', 20, Array)
+#2 /home/lemac889a/infographie/core/lib/Drupal/Component/Utility/ToStringTrait.php(20): trigger_error('Drupal\\Core\\Dat...', 256)
+#3 /home/lemac889a/infographie/core/lib/Drupal/Core/EventSubscriber/DefaultExceptionSubscriber.php(121): Drupal\Core\StringTranslation\TranslatableMarkup->__toString()
+#4 /home/lemac889a/infographie/core/lib/Drupal/Core/EventSubscriber/DefaultExceptionSubscriber.php(199): Drupal\Core\EventSubscriber\DefaultExceptionSubscriber->onHtml(Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent))
+#5 /home/lemac889a/infographie/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(111): Drupal\Core\EventSubscriber\DefaultExceptionSubscriber->onException(Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent), 'kernel.exceptio...', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#6 /home/lemac889a/infographie/vendor/symfony/http-kernel/HttpKernel.php(216): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch('kernel.exceptio...', Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent))
+#7 /home/lemac889a/infographie/vendor/symfony/http-kernel/HttpKernel.php(70): Symfony\Component\HttpKernel\HttpKernel->handleException(Object(PDOException), Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#10 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(99): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#11 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(78): Drupal\page_cache\StackMiddleware\PageCache->pass(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#12 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#13 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(50): Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#14 /home/lemac889a/infographie/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Drupal\Core\StackMiddleware\NegotiationMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#15 /home/lemac889a/infographie/core/lib/Drupal/Core/DrupalKernel.php(652): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#16 /home/lemac889a/infographie/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#17 {main}
+[16-Jun-2018 09:54:33 America/New_York] Uncaught PHP Exception PDOException: "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away" at /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php line 1129
+[16-Jun-2018 09:54:33 America/New_York] Drupal\Core\Database\DatabaseExceptionWrapper: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: UPDATE {users_field_data} SET access=:db_update_placeholder_0
+WHERE  (uid = :db_condition_placeholder_0); Array
+(
+    [:db_update_placeholder_0] => 1529157001
+    [:db_condition_placeholder_0] => 1
+)
+ in /home/lemac889a/infographie/core/modules/user/src/UserStorage.php on line 59 #0 /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php(635): Drupal\Core\Database\Connection->handleQueryException(Object(PDOException), 'UPDATE {users_f...', Array, Array)
+#1 /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(81): Drupal\Core\Database\Connection->query('UPDATE {users_f...', Array, Array)
+#2 /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Query/Update.php(148): Drupal\Core\Database\Driver\mysql\Connection->query('UPDATE {users_f...', Array, Array)
+#3 /home/lemac889a/infographie/core/modules/user/src/UserStorage.php(59): Drupal\Core\Database\Query\Update->execute()
+#4 /home/lemac889a/infographie/core/modules/user/src/EventSubscriber/UserRequestSubscriber.php(55): Drupal\user\UserStorage->updateLastAccessTimestamp(Object(Drupal\Core\Session\AccountProxy), 1529157001)
+#5 /home/lemac889a/infographie/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(111): Drupal\user\EventSubscriber\UserRequestSubscriber->onKernelTerminate(Object(Symfony\Component\HttpKernel\Event\PostResponseEvent), 'kernel.terminat...', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#6 /home/lemac889a/infographie/vendor/symfony/http-kernel/HttpKernel.php(79): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch('kernel.terminat...', Object(Symfony\Component\HttpKernel\Event\PostResponseEvent))
+#7 /home/lemac889a/infographie/vendor/stack/builder/src/Stack/StackedHttpKernel.php(32): Symfony\Component\HttpKernel\HttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\JsonResponse))
+#8 /home/lemac889a/infographie/core/lib/Drupal/Core/DrupalKernel.php(630): Stack\StackedHttpKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\JsonResponse))
+#9 /home/lemac889a/infographie/index.php(22): Drupal\Core\DrupalKernel->terminate(Object(Symfony\Component\HttpFoundation\Request), Object(Symfony\Component\HttpFoundation\JsonResponse))
+#10 {main}
+[16-Jun-2018 10:29:58 America/New_York] PHP Fatal error:  Class 'Google_Client' not found in /home/lemac889a/infographie/modules/droogle/src/DroogleConnector.php on line 28
+[16-Jun-2018 10:30:00 America/New_York] PHP Fatal error:  Class 'Google_Client' not found in /home/lemac889a/infographie/modules/droogle/src/DroogleConnector.php on line 28
+[19-Jun-2018 06:10:47 America/New_York] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\HttpException: "The specified #ajax callback is empty or not callable." at /home/lemac889a/infographie/core/lib/Drupal/Core/Form/FormAjaxResponseBuilder.php line 67
+[19-Jun-2018 16:17:36 America/New_York] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\HttpException: "The specified #ajax callback is empty or not callable." at /home/lemac889a/infographie/core/lib/Drupal/Core/Form/FormAjaxResponseBuilder.php line 67
+[22-Jun-2018 05:22:14 America/New_York] PHP Fatal error:  Call to a member function getDisplay() on null in /home/lemac889a/infographie/modules/entity_browser/src/Element/EntityBrowserElement.php on line 167
+[22-Jun-2018 05:22:21 America/New_York] PHP Fatal error:  Call to a member function getDisplay() on null in /home/lemac889a/infographie/modules/entity_browser/src/Element/EntityBrowserElement.php on line 167
+[24-Jun-2018 15:09:02 America/New_York] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\HttpException: "The specified #ajax callback is empty or not callable." at /home/lemac889a/infographie/core/lib/Drupal/Core/Form/FormAjaxResponseBuilder.php line 67
+[29-Jun-2018 11:56:06 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[29-Jun-2018 11:56:06 UTC] PHP Notice:  Undefined index: up in /home/lemac889a/infographie/accesson.php on line 1
+[29-Jun-2018 11:56:07 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[29-Jun-2018 11:56:08 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[29-Jun-2018 11:56:12 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[29-Jun-2018 11:56:12 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[29-Jun-2018 11:56:13 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[02-Jul-2018 06:30:02 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[02-Jul-2018 06:30:02 UTC] PHP Notice:  Undefined index: up in /home/lemac889a/infographie/accesson.php on line 1
+[02-Jul-2018 06:30:03 UTC] PHP Notice:  Undefined index: id in /home/lemac889a/infographie/accesson.php on line 1
+[11-Jul-2018 14:55:03 UTC] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: CREATE TABLE {cache_config} (
+`cid` VARCHAR(255) BINARY CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL DEFAULT '' COMMENT 'Primary Key: Unique cache ID.', 
+`data` LONGBLOB NULL DEFAULT NULL COMMENT 'A collection of data to cache.', 
+`expire` INT NOT NULL DEFAULT 0 COMMENT 'A Unix timestamp indicating when the cache entry should expire, or -1 for never.', 
+`created` DECIMAL(14, 3) NOT NULL DEFAULT 0 COMMENT 'A timestamp with millisecond precision indicating when the cache entry was created.', 
+`serialized` SMALLINT NOT NULL DEFAULT 0 COMMENT 'A flag to indicate whether content is serialized (1) or not (0).', 
+`tags` LONGTEXT NULL DEFAULT NULL COMMENT 'Space-separated list of cache tags for this entry.', 
+`checksum` VARCHAR(255) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT 'The tag invalidation checksum when this entry was saved.', 
+PRIMARY KEY (`cid`), 
+INDEX `expire` (`expire`)
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8mb4 COMMENT 'Storage for the cache API.'; Array
+(
+)
+" at /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php line 671
+[11-Jul-2018 14:55:03 UTC] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: CREATE TABLE {cache_config} (
+`cid` VARCHAR(255) BINARY CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL DEFAULT '' COMMENT 'Primary Key: Unique cache ID.', 
+`data` LONGBLOB NULL DEFAULT NULL COMMENT 'A collection of data to cache.', 
+`expire` INT NOT NULL DEFAULT 0 COMMENT 'A Unix timestamp indicating when the cache entry should expire, or -1 for never.', 
+`created` DECIMAL(14, 3) NOT NULL DEFAULT 0 COMMENT 'A timestamp with millisecond precision indicating when the cache entry was created.', 
+`serialized` SMALLINT NOT NULL DEFAULT 0 COMMENT 'A flag to indicate whether content is serialized (1) or not (0).', 
+`tags` LONGTEXT NULL DEFAULT NULL COMMENT 'Space-separated list of cache tags for this entry.', 
+`checksum` VARCHAR(255) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT 'The tag invalidation checksum when this entry was saved.', 
+PRIMARY KEY (`cid`), 
+INDEX `expire` (`expire`)
+) ENGINE = InnoDB DEFAULT CHARACTER SET utf8mb4 COMMENT 'Storage for the cache API.'; Array
+(
+)
+" at /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php line 671
+[11-Jul-2018 14:55:03 UTC] User error: Drupal\Core\Database\DatabaseExceptionWrapper thrown while calling __toString on a Drupal\Core\StringTranslation\TranslatableMarkup object in /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php on line 671: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: SELECT s.*, t.language AS language, t.translation AS translation, t.customized AS customized
+FROM 
+{locales_source} s
+LEFT OUTER JOIN {locales_target} t ON t.lid = s.lid AND t.language = :langcode
+WHERE  (s.source IN  (:db_condition_placeholder_0)) AND (s.context IN  (:db_condition_placeholder_1)); Array
+(
+    [:db_condition_placeholder_0] =&gt; The website encountered an unexpected error. Please try again later.
+    [:db_condition_placeholder_1] =&gt; 
+    [:langcode] =&gt; fr
+)
+ in /home/lemac889a/infographie/core/lib/Drupal/Component/Utility/ToStringTrait.php on line 20 #0 /home/lemac889a/infographie/core/includes/bootstrap.inc(548): _drupal_error_handler_real(256, 'Drupal\\Core\\Dat...', '/home/lemac889a...', 20, Array)
+#1 [internal function]: _drupal_error_handler(256, 'Drupal\\Core\\Dat...', '/home/lemac889a...', 20, Array)
+#2 /home/lemac889a/infographie/core/lib/Drupal/Component/Utility/ToStringTrait.php(20): trigger_error('Drupal\\Core\\Dat...', 256)
+#3 /home/lemac889a/infographie/core/lib/Drupal/Core/EventSubscriber/DefaultExceptionSubscriber.php(121): Drupal\Core\StringTranslation\TranslatableMarkup->__toString()
+#4 /home/lemac889a/infographie/core/lib/Drupal/Core/EventSubscriber/DefaultExceptionSubscriber.php(199): Drupal\Core\EventSubscriber\DefaultExceptionSubscriber->onHtml(Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent))
+#5 /home/lemac889a/infographie/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(111): Drupal\Core\EventSubscriber\DefaultExceptionSubscriber->onException(Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent), 'kernel.exceptio...', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#6 /home/lemac889a/infographie/vendor/symfony/http-kernel/HttpKernel.php(216): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch('kernel.exceptio...', Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent))
+#7 /home/lemac889a/infographie/vendor/symfony/http-kernel/HttpKernel.php(70): Symfony\Component\HttpKernel\HttpKernel->handleException(Object(Drupal\Core\Database\DatabaseExceptionWrapper), Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#10 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(207): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#11 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(121): Drupal\page_cache\StackMiddleware\PageCache->fetch(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#12 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(75): Drupal\page_cache\StackMiddleware\PageCache->lookup(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#13 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#14 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(50): Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#15 /home/lemac889a/infographie/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Drupal\Core\StackMiddleware\NegotiationMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#16 /home/lemac889a/infographie/core/lib/Drupal/Core/DrupalKernel.php(652): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#17 /home/lemac889a/infographie/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#18 {main}
+[11-Jul-2018 14:55:03 UTC] User error: Drupal\Core\Database\DatabaseExceptionWrapper thrown while calling __toString on a Drupal\Core\StringTranslation\TranslatableMarkup object in /home/lemac889a/infographie/core/lib/Drupal/Core/Database/Connection.php on line 671: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away: SELECT s.*, t.language AS language, t.translation AS translation, t.customized AS customized
+FROM 
+{locales_source} s
+LEFT OUTER JOIN {locales_target} t ON t.lid = s.lid AND t.language = :langcode
+WHERE  (s.source IN  (:db_condition_placeholder_0)) AND (s.context IN  (:db_condition_placeholder_1)); Array
+(
+    [:db_condition_placeholder_0] =&gt; The website encountered an unexpected error. Please try again later.
+    [:db_condition_placeholder_1] =&gt; 
+    [:langcode] =&gt; fr
+)
+ in /home/lemac889a/infographie/core/lib/Drupal/Component/Utility/ToStringTrait.php on line 20 #0 /home/lemac889a/infographie/core/includes/bootstrap.inc(548): _drupal_error_handler_real(256, 'Drupal\\Core\\Dat...', '/home/lemac889a...', 20, Array)
+#1 [internal function]: _drupal_error_handler(256, 'Drupal\\Core\\Dat...', '/home/lemac889a...', 20, Array)
+#2 /home/lemac889a/infographie/core/lib/Drupal/Component/Utility/ToStringTrait.php(20): trigger_error('Drupal\\Core\\Dat...', 256)
+#3 /home/lemac889a/infographie/core/lib/Drupal/Core/EventSubscriber/DefaultExceptionSubscriber.php(121): Drupal\Core\StringTranslation\TranslatableMarkup->__toString()
+#4 /home/lemac889a/infographie/core/lib/Drupal/Core/EventSubscriber/DefaultExceptionSubscriber.php(199): Drupal\Core\EventSubscriber\DefaultExceptionSubscriber->onHtml(Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent))
+#5 /home/lemac889a/infographie/core/lib/Drupal/Component/EventDispatcher/ContainerAwareEventDispatcher.php(111): Drupal\Core\EventSubscriber\DefaultExceptionSubscriber->onException(Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent), 'kernel.exceptio...', Object(Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#6 /home/lemac889a/infographie/vendor/symfony/http-kernel/HttpKernel.php(216): Drupal\Component\EventDispatcher\ContainerAwareEventDispatcher->dispatch('kernel.exceptio...', Object(Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent))
+#7 /home/lemac889a/infographie/vendor/symfony/http-kernel/HttpKernel.php(70): Symfony\Component\HttpKernel\HttpKernel->handleException(Object(Drupal\Core\Database\DatabaseExceptionWrapper), Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/Session.php(57): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/KernelPreHandle.php(47): Drupal\Core\StackMiddleware\Session->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#10 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(207): Drupal\Core\StackMiddleware\KernelPreHandle->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#11 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(121): Drupal\page_cache\StackMiddleware\PageCache->fetch(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#12 /home/lemac889a/infographie/core/modules/page_cache/src/StackMiddleware/PageCache.php(75): Drupal\page_cache\StackMiddleware\PageCache->lookup(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#13 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/ReverseProxyMiddleware.php(47): Drupal\page_cache\StackMiddleware\PageCache->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#14 /home/lemac889a/infographie/core/lib/Drupal/Core/StackMiddleware/NegotiationMiddleware.php(50): Drupal\Core\StackMiddleware\ReverseProxyMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#15 /home/lemac889a/infographie/vendor/stack/builder/src/Stack/StackedHttpKernel.php(23): Drupal\Core\StackMiddleware\NegotiationMiddleware->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#16 /home/lemac889a/infographie/core/lib/Drupal/Core/DrupalKernel.php(652): Stack\StackedHttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#17 /home/lemac889a/infographie/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#18 {main}

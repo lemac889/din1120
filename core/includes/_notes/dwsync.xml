@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="batch.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="bootstrap.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="common.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="entity.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="errors.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="database.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="file.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="form.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="install.core.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="menu.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="install.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="module.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="pager.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="schema.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="tablesort.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="theme.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="theme.maintenance.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="unicode.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="update.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+<file name="utility.inc" server="landreville.info/infographie/" local="131237955360000000" remote="131785555200000000" Dst="2" />
+</dwsync>

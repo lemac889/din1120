@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AccessArgumentsResolverFactory.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessArgumentsResolverFactoryInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessCheckInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessException.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessibleInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessManager.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessManagerInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessResultAllowed.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessResult.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessResultForbidden.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessResultInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessResultNeutral.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CheckProvider.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CheckProviderInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AccessResultReasonInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CsrfRequestHeaderAccessCheck.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CsrfTokenGenerator.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CsrfAccessCheck.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="DefaultAccessCheck.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="RouteProcessorCsrf.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CustomAccessCheck.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+</dwsync>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AssetCollectionGrouperInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AssetCollectionOptimizerInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AssetCollectionRendererInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AssetDumper.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AssetDumperInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AssetOptimizerInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AssetResolverInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AttachedAssets.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AssetResolver.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CssCollectionOptimizer.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="AttachedAssetsInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CssCollectionGrouper.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CssOptimizer.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="CssCollectionRenderer.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="JsCollectionGrouper.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="JsCollectionOptimizer.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="JsOptimizer.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="LibraryDependencyResolver.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="JsCollectionRenderer.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="LibraryDiscoveryCollector.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="LibraryDependencyResolverInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="LibraryDiscovery.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="LibraryDiscoveryParser.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+<file name="LibraryDiscoveryInterface.php" server="landreville.info/infographie/" local="131237955360000000" remote="131785557600000000" Dst="2" />
+</dwsync>
